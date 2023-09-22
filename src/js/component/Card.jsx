@@ -4,10 +4,10 @@ const Card =()=>{
         <>
         <div>
                <div className="card" >
-                 <img src="..." className="card-img-top" alt="..."/>
-                <div className="card-body">
-               <h5 className="card-title">tittle</h5>
-           <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, ducimus! Quis delectus labore quas ad accusantium beatae deleniti officiis sunt ipsam qui veritatis similique, commodi ea exercitationem dolor. Reprehenderit, eligendi?</p>
+                 <img src="https://picsum.photos/200" className="card-img-top" alt="..."/>
+                <div className="card-body text-center">
+               <h5 className="card-title">CARD</h5>
+           <p className="fs-6 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, ducimus!?</p>
         <a href="#" className="btn btn-primary">Go somewhere</a>
             </div>
           </div>

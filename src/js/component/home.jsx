@@ -11,13 +11,13 @@ const Home = () => {
 	
 	return(
 	     <>
-		<div className="container-fluid">
+		<div className="container-fluid p-0">
 			<Navbar />
 		</div>
-		<div className="container-fluid bg-body-tertiary m-2">
+		<div className="container d-flex justify-content-center ">
 			<Jumbotron />
-		</div>
-		<div className="container-fluid">
+			</div>
+		<div className="container d-flex justify-content-center">
 				
 			<div className="row d-flex">
 				<div className="col-3"><Card/></div>	
@@ -28,7 +28,8 @@ const Home = () => {
 </div>
 					
 		
-		</div>			
+		</div>	
+				
 
 
 
