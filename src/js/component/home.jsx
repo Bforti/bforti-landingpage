@@ -1,34 +1,40 @@
 import React from "react";
-import Navbar from "./Navbar.jsx"
-import Jumbotron from "./Jumbotron.jsx"
-import Card from "./Card"
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+import Navbar from "./Navbar.jsx";
+import Jumbotron from "./Jumbotron.jsx";
+import Card from "./Card.jsx";
 
 //create your first component
+
+
 const Home = () => {
-	const dataCards=[{tittle: "first", content="lorem-picsum" },
-                 	{tittle: "second", content="lorem-picsum" },
-                 	{tittle: "third", content="lorem-picsum" },
-                 	{tittle: "four", content="lorem-picsum" }
+	
+	
+	return(
+	     <>
+		<div className="container-fluid">
+			<Navbar />
+		</div>
+		<div className="container-fluid bg-body-tertiary m-2">
+			<Jumbotron />
+		</div>
+		<div className="container-fluid">
+				
+			<div className="row d-flex">
+				<div className="col-3"><Card/></div>	
+				<div className="col-3"><Card/></div>	
+				<div className="col-3"><Card/></div>	
+				<div className="col-3"><Card/></div>	
+			
+</div>
+					
+		
+		</div>			
 
-                      ]
-	return (<>
-		<Navbar/>
-		<div className="container bg-"><Jumbotron/></div>
-		<div className="container text-center">
-			<div className ="row">
-				{dataCards.map((cardObject,index)=>{
-					return(
-						<Card title 
-						/>
-					);
-				}
-				)}
-				<div>
-			</div>
-		</>
-		);
-};
 
-export default Home;
+
+		 </>
+					)
+					}
+
+					export default Home;
+				
